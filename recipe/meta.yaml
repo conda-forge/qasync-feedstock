@@ -1,6 +1,6 @@
 {% set name = "qasync" %}
-{% set version = "0.23.0" %}
-{% set sha256 = "8965ec313e0107148d98e8ac1e77a77dce74de3cd97055a1aa62d513a3793a14" %}
+{% set version = "0.24.0" %}
+{% set sha256 = "e583d1c3ae20fd12e908dee358c527709b480e78d57fb72ee57a94097307d959" %}
 
 package:
   name: {{ name|lower }}
