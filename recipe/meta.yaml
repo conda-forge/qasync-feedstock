@@ -1,6 +1,6 @@
 {% set name = "qasync" %}
-{% set version = "0.25.0" %}
-{% set sha256 = "f4479f96f48d0899c4e37eb871fbd5084c2066bf21a4513f19ed2993b975a2f3" %}
+{% set version = "0.26.0" %}
+{% set sha256 = "0d51daf21ad6ee84e306d19ba856e7e1ca4836e3504e7b22c9493dbd4c85b3a3" %}
 
 package:
   name: {{ name|lower }}
@@ -17,10 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
+    - poetry-core >=1.5.0
   run:
-    - python >=3.6
+    - python >=3.8
 
 test:
   requires:
